@@ -1,4 +1,4 @@
-# 🏠 SafeNest AR
+# 🏠 SafeNest AR: AI-Powered Home Security & Vacation Monitoring System
 
 ## Secure Homes. Peaceful Journeys.
 
