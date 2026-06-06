@@ -112,7 +112,7 @@ AR Security Visualization
 
 ### 🚨 Emergency Alerts
 
-![Emergency Alerts](images/emergency_alerts.png)
+![Emergency Alerts](images/emergency_alerts_image.png)
 
 ---
 
@@ -313,6 +313,7 @@ streamlit run app.py
 ## 👩‍💻 Developed By
 
 C.Arthi Reddy
+
 K.Rishitha Srija
 
 
