@@ -1,0 +1,106 @@
+[
+    {
+        "timestamp": "2026-06-22 18:46:23",
+        "person_detected": "Unknown Person",
+        "time_of_day": "Night",
+        "motion": 1,
+        "door": 1,
+        "window": 0,
+        "vacation_mode": true,
+        "previous_incidents": 2,
+        "predicted_threat": "High",
+        "risk_score": 100,
+        "alert_level": "Critical",
+        "model_confidence": 100.0,
+        "explanation": [
+            "Unknown person detected near the house.",
+            "The incident occurred during night hours.",
+            "Motion was detected around the property.",
+            "Door activity was detected.",
+            "Vacation Mode is active, increasing threat sensitivity.",
+            "2 previous security incident(s) were found."
+        ],
+        "recommendations": [
+            "Notify homeowner immediately.",
+            "Activate alarm and continuous camera monitoring.",
+            "Contact trusted neighbor or emergency contact.",
+            "Escalate to security services if suspicious activity continues."
+        ]
+    },
+    {
+        "timestamp": "2026-06-22 18:48:38",
+        "person_detected": "Known Person",
+        "time_of_day": "Night",
+        "motion": 1,
+        "door": 0,
+        "window": 0,
+        "vacation_mode": true,
+        "previous_incidents": 0,
+        "predicted_threat": "Medium",
+        "risk_score": 60,
+        "alert_level": "High",
+        "model_confidence": 99.0,
+        "explanation": [
+            "Known person activity detected.",
+            "The incident occurred during night hours.",
+            "Motion was detected around the property.",
+            "Vacation Mode is active, increasing threat sensitivity."
+        ],
+        "recommendations": [
+            "Send high-priority alert to homeowner.",
+            "Review CCTV / camera feed immediately.",
+            "Check all doors and windows.",
+            "Monitor the visitor or activity closely."
+        ]
+    },
+    {
+        "timestamp": "2026-06-22 18:49:40",
+        "person_detected": "Unknown Person",
+        "time_of_day": "Day",
+        "motion": 0,
+        "door": 0,
+        "window": 1,
+        "vacation_mode": false,
+        "previous_incidents": 0,
+        "predicted_threat": "Medium",
+        "risk_score": 55,
+        "alert_level": "Medium",
+        "model_confidence": 79.0,
+        "explanation": [
+            "Unknown person detected near the house.",
+            "Window activity was detected."
+        ],
+        "recommendations": [
+            "Log the event for monitoring.",
+            "Check recent activity around entry points.",
+            "Continue observation in case the event repeats."
+        ]
+    },
+    {
+        "timestamp": "2026-06-22 19:11:52",
+        "person_detected": "Unknown Person",
+        "time_of_day": "Night",
+        "motion": 1,
+        "door": 1,
+        "window": 0,
+        "vacation_mode": false,
+        "previous_incidents": 3,
+        "predicted_threat": "High",
+        "risk_score": 89,
+        "alert_level": "Critical",
+        "model_confidence": 100.0,
+        "explanation": [
+            "Unknown person detected near the house.",
+            "The incident occurred during night hours.",
+            "Motion was detected around the property.",
+            "Door activity was detected.",
+            "3 previous security incident(s) were found."
+        ],
+        "recommendations": [
+            "Notify homeowner immediately.",
+            "Activate alarm and continuous camera monitoring.",
+            "Contact trusted neighbor or emergency contact.",
+            "Escalate to security services if suspicious activity continues."
+        ]
+    }
+]

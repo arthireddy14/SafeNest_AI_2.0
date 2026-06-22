@@ -1,318 +1,270 @@
-# 🏠 SafeNest AR
-
+# 🏠 SafeNest AI 2.0  
 ## Secure Homes. Peaceful Journeys.
 
-SafeNest AR is an AI-powered home security and vacation monitoring platform designed to help families protect their homes while they are away. The system analyzes security events, predicts potential threats using Machine Learning, generates intelligent safety recommendations, and visualizes threats through an Augmented Reality-inspired Security Map.
+SafeNest AI 2.0 is an **AI-powered home security and vacation monitoring system** designed to help families protect their homes while they are away for vacations, business trips, festivals, or emergencies.
+
+The system combines **Machine Learning-based threat prediction**, **risk scoring**, **AI-generated security recommendations**, **emergency alerting**, and an **AR-inspired security visualization dashboard** to provide intelligent and centralized home safety monitoring.
 
 ---
 
-## 📌 Problem Statement
+# 📌 Problem Statement
 
-Families often worry about the safety of their homes while traveling for vacations, business trips, festivals, or emergencies.
+Families often worry about the safety of their homes while they are away.
 
-Traditional security systems generate alerts but often fail to provide intelligent threat assessment, centralized monitoring, and visual situational awareness.
+Traditional home security systems mainly generate raw alerts such as door or motion notifications, but they often fail to provide:
 
----
+- intelligent threat assessment
+- centralized family safety management
+- contextual risk scoring
+- actionable recommendations
+- clear visualization of where the threat is occurring inside the home
 
-## 💡 Solution
-
-SafeNest AR combines Artificial Intelligence and Augmented Reality concepts to:
-
-* Monitor home security events
-* Predict threat levels using Machine Learning
-* Assess security risks in real-time
-* Generate safety recommendations
-* Visualize threats through an AR-inspired security map
-* Provide centralized family safety management
+As a result, homeowners may receive alerts but still struggle to understand **how serious the situation is**, **which area is affected**, and **what action should be taken**.
 
 ---
 
-## 🚀 Key Features
+# 💡 Solution
 
-### 👨‍👩‍👧 Family Registry
+**SafeNest AI 2.0** addresses this problem by building an intelligent home monitoring platform that can:
 
-Manage and register authorized family members.
-
-### ✈ Vacation Mode
-
-Enable enhanced security monitoring when homeowners are away.
-
-### 🤖 AI Threat Prediction
-
-Predicts threat levels using a Random Forest Machine Learning model.
-
-### 📊 Risk Assessment
-
-Generates risk scores based on detected activities and security events.
-
-### 🛡 Safety Recommendations
-
-Provides intelligent recommendations based on threat severity.
-
-### 🚨 Emergency Alerts
-
-Displays security incidents and alert notifications.
-
-### 📱 AR Security Map
-
-Visualizes threat zones across different areas of the home.
-
-### 📜 Security Timeline
-
-Tracks and displays recent security events and activities.
+- manage registered family members
+- enable a dedicated **Vacation Mode** for enhanced monitoring
+- analyze suspicious activities using **Machine Learning**
+- predict threat severity (**Low / Medium / High**)
+- calculate a contextual **risk score**
+- generate **explainable threat reasons**
+- provide **AI-based safety recommendations**
+- maintain a **security timeline**
+- display **emergency alerts**
+- visualize threat-prone home zones through an **AR-inspired Security Map**
 
 ---
 
-## 🏗 System Architecture
+# 🚀 Key Features
 
-Family Registry
-↓
-Vacation Mode
-↓
-Threat Analysis
-↓
-AI Threat Prediction Model
-↓
-Risk Assessment
-↓
-Safety Recommendations
-↓
-Emergency Alerts
-↓
-AR Security Visualization
+## 👨‍👩‍👧 Family Registry
+Register and manage authorized family members for the household security system.
+
+## ✈ Vacation Mode
+Enable enhanced monitoring when the homeowner is away. Vacation Mode increases sensitivity during threat analysis and helps simulate a real travel-security use case.
+
+## 🚨 Threat Analyzer
+Analyze suspicious incidents using user-selected security events such as:
+- Motion Detection
+- Door Activity
+- Window Activity
+- Known / Unknown Person
+- Time of Incident
+- Previous Security Incidents
+
+## 🤖 AI Threat Prediction
+Uses a **Random Forest Machine Learning model** to classify incidents into:
+- **Low Threat**
+- **Medium Threat**
+- **High Threat**
+
+## 📊 Risk Assessment Engine
+Generates a **risk score (0–100)** based on:
+- person type
+- time of incident
+- motion / door / window activity
+- vacation mode status
+- previous incidents
+
+## 🧠 Explainable Threat Analysis
+Provides human-readable reasons behind the threat decision, such as:
+- unknown person detected
+- night-time activity
+- door / window activity
+- repeated incident history
+- vacation mode sensitivity
+
+## 🛡 AI Security Recommendations
+Generates actionable recommendations depending on the threat severity, such as:
+- notify homeowner
+- review CCTV / camera feed
+- check doors and windows
+- continue monitoring / log event
+
+## 🚨 Emergency Alerts
+Displays analyzed incidents as alert cards using severity-based prioritization.
+
+## 📜 Security Timeline
+Stores and displays past analyzed incidents with:
+- timestamp
+- person detected
+- threat level
+- risk score
+- alert level
+
+## 📱 AR Security Map
+An **AR-inspired security visualization page** that maps the latest incident to different home zones such as:
+- Front Door
+- Window Zone
+- Living Room / Motion Zone
+
+## 🤖 AI Security Advisor
+Summarizes the latest incident and shows:
+- threat explanation
+- alert level
+- risk score
+- recommended next steps
 
 ---
 
-## 🖼 Project Screenshots
+# 🏗 System Workflow / Architecture
 
-### 🏠 Home Dashboard
+SafeNest AI 2.0 follows the below workflow:
 
-![Dashboard](images/safenest_dashboard.png)
+**Family Registry**  
+↓  
+**Vacation Mode Activation**  
+↓  
+**Threat Event Input**  
+↓  
+**Machine Learning Threat Prediction**  
+↓  
+**Risk Score Calculation**  
+↓  
+**Explainable Threat Analysis**  
+↓  
+**AI Security Recommendations**  
+↓  
+**Emergency Alerts**  
+↓  
+**Security Timeline Logging**  
+↓  
+**AR-Inspired Security Visualization**
 
 ---
 
-### 👨‍👩‍👧 Family Registry
+# 🧠 Machine Learning Model
 
+## Algorithm Used
+- **Random Forest Classifier**
+
+## Input Features
+The model uses the following features during threat prediction:
+
+- Person Type
+- Time of Day
+- Motion Detection
+- Door Activity
+- Window Activity
+- Vacation Mode Status
+- Previous Security Incidents
+
+## Output Classes
+- Low Threat
+- Medium Threat
+- High Threat
+
+## Supporting AI Logic
+In addition to ML prediction, SafeNest AI 2.0 also includes:
+- custom **risk score calculation**
+- **alert level classification**
+- **explainability generation**
+- **AI recommendation generation**
+
+---
+
+# 🖼 Project Screenshots
+
+## 🏠 Dashboard
+![Dashboard](images/dashboard_new.png)
+
+---
+
+## 👨‍👩‍👧 Family Registry
 ![Family Registry](images/family_registry_image.png)
 
 ---
 
-### ✈ Vacation Mode
-
-![Vacation Mode](images/vacation_mode.png)
-
----
-
-### 🚨 Threat Analyzer
-
-![Threat Analyzer](images/threat_analyzer_image.png)
-
+## ✈ Vacation Mode
+![Vacation Mode](images/vacation_mode_new.png)
 
 ---
 
-### 🚨 Emergency Alerts
-
-![Emergency Alerts](images/emergency_alerts.png)
-
----
-
-### 📱 AR Security Map
-
-![AR Security Map](images/ar_security_map.png)
+## 🚨 Threat Analyzer Result
+![Threat Analyzer](images/threat_analyzer_result.png)
 
 ---
 
-### 📜 Security Timeline
-
-![Security Timeline](images/security_timeline.png)
-
----
-
-## 🤖 Machine Learning Model
-
-### Algorithm Used
-
-* Random Forest Classifier
-
-### Input Features
-
-* Person Type
-* Time of Day
-* Motion Detection
-* Door Activity
-* Window Activity
-* Vacation Mode Status
-* Previous Security Incidents
-
-### Output
-
-* Low Threat
-* Medium Threat
-* High Threat
-
-### Model Performance
-
-* Accuracy: 99.5%
+## 🚨 Emergency Alerts
+![Emergency Alerts](images/emergency_alerts_new.png)
 
 ---
 
-## 🛠 Tech Stack
-
-### Frontend
-
-* Streamlit
-
-### Backend
-
-* Python
-
-### Machine Learning
-
-* Scikit-learn
-* Random Forest Classifier
-
-### Data Handling
-
-* Pandas
-* NumPy
-
-### Storage
-
-* JSON
-
-### Version Control
-
-* Git & GitHub
+## 📱 AR Security Map
+![AR Security Map](images/ar_security_advisor.png)
 
 ---
 
-## 📂 Project Structure
+# 🛠 Tech Stack
 
-SafeNest_AR/
+## Frontend
+- **Streamlit**
 
+## Backend
+- **Python**
+
+## Machine Learning
+- **Scikit-learn**
+- **Random Forest Classifier**
+- **Joblib**
+
+## Data Handling
+- **Pandas**
+- **NumPy**
+
+## Storage
+- **JSON**
+
+## Version Control
+- **Git & GitHub**
+
+---
+
+# 📂 Project Structure
+
+```bash
+SafeNest_AI/
+│
 ├── app.py
-
-├── pages/
-
-│   ├── family_registry.py
-
-│   ├── vacation_mode.py
-
-│   ├── threat_analyzer.py
-
-│   ├── emergency_alerts.py
-
-│   ├── ar_visualization.py
-
-│   └── security_timeline.py
-
-├── data/
-
-│   ├── family.json
-
-│   ├── vacation_mode.json
-
-│   └── stats.json
-
-├── images/
-
-│   ├── safenest_dashboard.png
-
-│   ├── family_registry_image.png
-
-│   ├── vacation_mode.png
-
-│   ├── threat_analyzer_image.png
-
-│   ├── emergency_alerts.png
-
-│   ├── security_timeline.png
-
-│   └── safenest_homepage.png
-
-├── threat_model.pkl
-
 ├── train_model.py
-
 ├── generate_dataset.py
-
-└── README.md
-
----
-## Vision
-
-SafeNest AR
-
-AI-Powered Security Monitoring & Threat Visualization Platform
-
-Use Cases:
-
-🏠 Homes
-
-🏦 Banks
-
-🏪 Shops
-
-🏢 Offices
-
-🏫 Schools
-
-🏬 Warehouses
----
-
-## 🔮 Future Scope
-
-* Real-time AR Camera Overlay
-* Face Recognition for Visitor Identification
-* Smart CCTV Integration
-* IoT Door and Window Sensors
-* Mobile Push Notifications
-* Voice-based Emergency Assistant
-* Security Guard Monitoring
-* ATM and Bank Security Monitoring
-* Smart City Safety Integration
-
----
-
-## 🎯 Hackathon Theme Alignment
-
-SafeNest AR aligns with the Open Innovation and Augmented Reality themes by combining:
-
-* Artificial Intelligence
-* Security Analytics
-* Risk Prediction
-* AR-inspired Threat Visualization
-* Smart Home Monitoring
-
-to create a next-generation family safety platform.
-
----
-
-## ▶ How to Run
-
-### Clone Repository
-
-```bash
-git clone <repository-url>
-```
-
-### Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### Launch Application
-
-```bash
-streamlit run app.py
-```
-
----
-
-## 👩‍💻 Developed By
-
-C.Arthi Reddy
-K.Rishitha Srija
-
-
+├── threat_model.pkl
+├── person_encoder.pkl
+├── time_encoder.pkl
+├── threat_encoder.pkl
+├── requirements.txt
+├── README.md
+│
+├── data/
+│   ├── family.json
+│   ├── vacation_mode.json
+│   ├── stats.json
+│   └── security_events.json
+│
+├── pages/
+│   ├── family_registry.py
+│   ├── vacation_mode.py
+│   ├── threat_analyzer.py
+│   ├── emergency_alerts.py
+│   ├── security_timeline.py
+│   ├── ar_visualization.py
+│   └── ai_security_advisor.py
+│
+├── utils/
+│   └── ai_agents.py
+│
+└── images/
+    ├── dashboard_new.png
+    ├── family_registry_image.png
+    ├── vacation_mode_new.png
+    ├── threat_analyzer_result.png
+    ├── emergency_alerts_new.png
+    ├── security_timeline_new.png
+    ├── ar_security_map_new.png
+    ├── ai_security_advisor.png
+    └── safenest_homepage.png
