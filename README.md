@@ -1,4 +1,4 @@
-# 🏠 SafeNest AR: AI-Powered Home Security & Vacation Monitoring System
+# 🏠 SafeNest AI 2.0: AI-Powered Home Security, Threat Intelligence & Vacation Monitoring Platform
 
 ## Secure Homes. Peaceful Journeys.
 
