@@ -186,7 +186,7 @@ In addition to ML prediction, SafeNest AI 2.0 also includes:
 ---
 
 ## 🚨 Threat Analyzer Result
-![Threat Analyzer](images/threat_analyzer_result.png)
+![Threat Analyzer](images/threat_analyzer_new.png)
 
 ---
 
@@ -196,7 +196,7 @@ In addition to ML prediction, SafeNest AI 2.0 also includes:
 ---
 
 ## 📱 AR Security Map
-![AR Security Map](images/ar_security_advisor.png)
+![AR Security Map](images/ar_security_map_new.png)
 
 ---
 
@@ -262,7 +262,7 @@ SafeNest_AI/
     ├── dashboard_new.png
     ├── family_registry_image.png
     ├── vacation_mode_new.png
-    ├── threat_analyzer_result.png
+    ├── threat_analyzer_new.png
     ├── emergency_alerts_new.png
     ├── security_timeline_new.png
     ├── ar_security_map_new.png
